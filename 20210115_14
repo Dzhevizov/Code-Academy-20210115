@@ -5,7 +5,9 @@ int g_integer = 5;
 
 int main(){
     test();
+    printf("%d\n", g_integer);
     test();
+    printf("%d\n", g_integer);
     test();
     printf("%d\n", g_integer);
 
