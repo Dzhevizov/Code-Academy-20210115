@@ -5,15 +5,13 @@ int g_integer = 5;
 
 int main(){
     test();
-    printf("%d\n", g_integer);
     test();
-    printf("%d\n", g_integer);
     test();
-    printf("%d\n", g_integer);
-
+    
     return 0;
 }
 
 void test(){
     g_integer ++;
+    printf("%d\n", g_integer);
     }
